@@ -15,7 +15,7 @@ body {
 h2 {
     text-align: center;
     margin-top: 92px;
-    z-index: 999999;
+    z-index: -1;
     position: relative;
     font-size: 45px;
     font-family: arial sans-serif;
@@ -32,7 +32,7 @@ h2 a {
     height: 48px;
     background: #F6F6F6;
     overflow: hidden;
-    z-index: 2;
+    z-index: -1;
     animation: glitter 4.5s linear 0s infinite normal;
     -webkit-animation: glitter 4.5s linear 0s infinite normal;
     -moz-animation: glitter 4.5s linear 0s infinite normal;
